@@ -69,6 +69,26 @@ const userController = {
       });
   },
 
+   // delete user and their thoughts
+   deleteUser(req, res) {
+    User.findOneAndDelete({ _id: req.params.userId })
+      .then((dbUserData) => {
+        if (!dbUserData) {
+          return res.status(404).json({ message: 'No user with this id!' });
+        }
+
+        // get user id and delete their associate thoughts
+        return Thought.deleteMany({ _id: { $in: dbUserData.thoughts } });
+      })
+      .then(() => {
+        res.json({ message: 'User and associated thoughts deleted!' });
+      })
+      .catch((err) => {
+        console.log(err);
+        res.status(500).json(err);
+      });
+  },
+
   // Add a friend
   addFriend(req, res) {
     User.findOneAndUpdate({ _id: req.params.userId }, { $addToSet: { friends: req.params.friendId } }, { new: true })
