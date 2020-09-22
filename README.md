@@ -7,7 +7,7 @@ An API for a social network web application, where users can share their thought
 ### Walkthrough video 
 #### Users CRUD : https://drive.google.com/file/d/10cJNOXYaakMiEfkjXL7Q1z2j_gIqKSgv/view
 #### Create, Get, Find Thoughts : https://drive.google.com/file/d/1S66QvkJM01llmO7Q2joorHUH5jRr8TSH/view
-### Add, Remove Friend : https://drive.google.com/file/d/18_lWBu-7mll4xsf8YiDvdR30Rg-zjKEr/view
+#### Add, Remove Friend : https://drive.google.com/file/d/18_lWBu-7mll4xsf8YiDvdR30Rg-zjKEr/view
 
 ## Description
 An API for a social network web application, where users can share their thoughts, react to friends' thoughts and create a friend list.
@@ -25,7 +25,7 @@ An API for a social network web application, where users can share their thought
 - Application allows to add accounts with usernames and emails.
 - I am able to create, read, update and delete(CRUD) users.
 - This application allows me to add friends and show many friends I have.
-- This application allows me to create reactions and thoughts.
+- This application allows me to create and find reactions and thoughts.
 - I am able to delete reactions, thoughts and remove friends.
 
 
