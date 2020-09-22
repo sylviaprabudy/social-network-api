@@ -4,8 +4,10 @@ An API for a social network web application, where users can share their thought
 
 ### Github : https://github.com/sylviaprabudy/social-network-api
 
-### Walkthrough video : 
-
+### Walkthrough video 
+#### Users CRUD : https://drive.google.com/file/d/10cJNOXYaakMiEfkjXL7Q1z2j_gIqKSgv/view
+#### Create, Get, Find Thoughts : https://drive.google.com/file/d/1S66QvkJM01llmO7Q2joorHUH5jRr8TSH/view
+### Add, Remove Friend : https://drive.google.com/file/d/18_lWBu-7mll4xsf8YiDvdR30Rg-zjKEr/view
 
 ## Description
 An API for a social network web application, where users can share their thoughts, react to friends' thoughts and create a friend list.
@@ -27,11 +29,11 @@ An API for a social network web application, where users can share their thought
 - I am able to delete reactions, thoughts and remove friends.
 
 
-
 ## Screenshots
-![](assets/img/prompts.png)
-
-
+![](assets/img/create-user.png)
+![](assets/img/find-all-user.png)
+![](assets/img/get-all-thoughts.png)
+![](assets/img/add-friend.png)
 
 
 ## Technologies Use
